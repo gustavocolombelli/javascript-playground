@@ -1,13 +1,16 @@
 {
   "scripts": {
     "test": "jest --coverage",
-    "test:watch": "yarn test -- --watch"
+    "test:watch": "npm run test -- --watch",
+    "start": "node src/app",
+    "dev": "nodemon --inspect"
   },
   "devDependencies": {
     "@babel/core": "^7.6.0",
     "@babel/preset-env": "^7.6.0",
     "babel-jest": "^24.9.0",
     "jest": "^24.9.0",
+    "node": "^16.10.0",
     "standard": "^14.3.1"
   }
 }
